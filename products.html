@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Collections | DEE Hamper Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background-color: #FFFBF5; }
+        .brand-font { font-family: 'Playfair Display', serif; }
+        .product-card:hover img { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <nav class="flex justify-between items-center px-10 py-6 bg-white shadow-sm">
+        <div class="text-2xl brand-font">DEE STUDIO</div>
+        <div class="space-x-8 text-sm uppercase">
+            <a href="index.html">Home</a>
+            <a href="products.html" class="font-bold border-b border-stone-800">Shop</a>
+            <a href="about.html">Our Story</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto py-16 px-6">
+        <h1 class="text-5xl brand-font text-center mb-16">The Studio Collection</h1>
+
+        <h2 class="text-2xl brand-font mb-8 italic">Birthday Wishes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
+            <div class="product-card group">
+                <div class="overflow-hidden rounded-xl mb-4"><img src="https://images.unsplash.com/photo-1549465220-1d8c9d9c4703?w=500" class="w-full h-80 object-cover transition duration-500"></div>
+                <h3 class="font-medium">Confetti & Cake Box</h3>
+                <p class="text-stone-400 text-sm">₹1,599</p>
+            </div>
+            <div class="product-card group">
+                <div class="overflow-hidden rounded-xl mb-4 bg-[#EDF2FB]"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?w=500" class="w-full h-80 object-cover transition duration-500"></div>
+                <h3 class="font-medium">Pastel Party Tray</h3>
+                <p class="text-stone-400 text-sm">₹2,200</p>
+            </div>
+        </div>
+
+        <h2 class="text-2xl brand-font mb-8 italic">Anniversary Treasures</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
+            <div class="product-card group">
+                <div class="overflow-hidden rounded-xl mb-4"><img src="https://images.unsplash.com/photo-1607344645866-009c320c5ab8?w=500" class="w-full h-80 object-cover transition duration-500"></div>
+                <h3 class="font-medium">The Eternal Love Trunk</h3>
+                <p class="text-stone-400 text-sm">₹5,500</p>
+            </div>
+        </div>
+
+        <h2 class="text-2xl brand-font mb-8 italic">For Him & Her</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="product-card group">
+                <div class="overflow-hidden rounded-xl mb-4"><img src="https://images.unsplash.com/photo-1581333100576-b73bbe04e29a?w=500" class="w-full h-80 object-cover transition duration-500"></div>
+                <h3 class="font-medium">The Dapper Box (Him)</h3>
+                <p class="text-stone-400 text-sm">₹2,800</p>
+            </div>
+            <div class="product-card group">
+                <div class="overflow-hidden rounded-xl mb-4 bg-[#F7E1D7]"><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=500" class="w-full h-80 object-cover transition duration-500"></div>
+                <h3 class="font-medium">Rose Radiance (Her)</h3>
+                <p class="text-stone-400 text-sm">₹3,400</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
